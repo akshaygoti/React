@@ -7,11 +7,11 @@ import React from "react"
 function Pera1(){
 
     return <p>
-        <p>lorem</p>
-        You can also directly specify the project name and the template you want to use via additional command line options. For example, to scaffold a Vite + Vue project, run:</p>
+        <p className="color: rgb(254 249 195);text-2xl">lorem You can also directly specify the project name and the template you want to use via additional command line options. For example, to scaffold a Vite + Vue project, run:</p>
+        </p>
 }
 function Pera2(){
-    return <p>You can also directly specify the project name and the template you want to use via additional command line options. For example, to scaffold a Vite + Vue project, run:</p>
+    return <p className="color: rgb(254 249 195); text-2xl">You can also directly specify the project name and the template you want to use via additional command line options. For example, to scaffold a Vite + Vue project, run:</p>
 }
 function Pera3(){
     return <p>You can also directly specify the project name and the template you want to use via additional command line options. For example, to scaffold a Vite + Vue project, run:</p>
