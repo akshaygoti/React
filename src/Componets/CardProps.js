@@ -31,4 +31,5 @@ const CardProps = (props) => {
 
 }
 
+
 export default CardProps
