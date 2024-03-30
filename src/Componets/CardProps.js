@@ -23,6 +23,7 @@ const CardProps = (props) => {
     </CardContent>
     <CardActions>
     </CardActions>
+    
   </Card>
 
   

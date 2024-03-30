@@ -16,7 +16,6 @@ import Img4 from './Componets/assets/27.jpg';
 import Img5 from './Componets/assets/30.jpg';
 import Img6 from './Componets/assets/75.jpg';
 
-// import  Props  from "./Componets/Props";
 
 
 function App() {
