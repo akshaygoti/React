@@ -11,8 +11,9 @@ const CardProps = (props) => {
     <Card sx={{ maxWidth: 345 }}>
     <CardMedia
       sx={{ height: 140 }}
-      image={props.img}
+      img={props.img}
     />
+    {props.age}
     <CardContent>
       <Typography gutterBottom variant="h5" component="div">
       {props.name}
@@ -23,7 +24,6 @@ const CardProps = (props) => {
     </CardContent>
     <CardActions>
     </CardActions>
-    
   </Card>
 
   
