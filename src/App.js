@@ -1,43 +1,49 @@
-// import Pera from "./Componets/Pera";
-// import "./App.css";
-// import "./Componets/Arrow.js"
-// import "./index.css"
-
-// import CardProps from "./Componets/CardProps";
-// import CartProps from "./Componets/CartProps";
-
-// import {Pera1,Pera2,Pera3,Pera4,Pera5,Pera6} from "./Componets/Pera"
-// import Arrow from "./Componets/Arrow.js";
-// import Task from "./Componets/Task.js";
-// import Props from "./Componets/Propscard.js";
-// import Img1 from './Componets/assets/9.jpg';
-// import Img2 from './Componets/assets/11.jpg';
-// import Img3 from './Componets/assets/69.jpg';
-// import Img4 from './Componets/assets/27.jpg';
-// import Img5 from './Componets/assets/30.jpg';
-// import Img6 from './Componets/assets/75.jpg';
-// import Data from "./Componets/Data";
-
-import Task3 from './Componets/Task3';
+import React , { useState} from 'react'
+import "./App.css";
 
 
-// function App() {
+import Hooks from './Componets/Hooks'
+
+// Hooks useState
+
+function App () {
+  return (
+    <div className='App'>
+      <Hooks/>
+    </div>
+  )
+}
+
+// function App () {
+//   const[count,Data]=useState(0);
+
+  
+//   const myfun = () =>{
+//     console.log("Click");
+//     Data(count + 1)
+//   }
+
+//   const myfun1 = () =>{
+//     console.log("Click Me");
+//     Data(count - 1)
+//   }
 
 //   return (
-//     <div>
-//       <h1 className="text-black text-center text-2xl font-semibold py-5">Your Emoji</h1>
-//       <div className="h-96 text-center text-2xl py-5">
-//         <Task3 a="🤔" b="🤣" c="😊"/>
-//       </div>
+//     <div className="App space-x-4 content-center text-center font-semibold flex flex-row min-h-screen justify-center items-center bg-fuchsia-500">
+
+// <div className='text-slate-50 text-2xl flex flex-row min-h-screen justify-center items-center'>
+//       <p >{count}</p>
+// </div>
+    
+//       <button onClick={myfun} className='border-0 border-white  text-slate-950 bg-white text-base/loose shadow-inner rounded-lg px-3 font-serif'>
+//        + Click Me
+//         </button>
+//       {/* <p>{count}</p> */}
+//       <button onClick={myfun1} className='border-0 border-white  text-slate-950 bg-white text-base/loose shadow-inner font-serif rounded-lg px-3'>
+//        - Click Me
+//         </button>
 //     </div>
-// );
-
-// };
-
-function App (){
-  <div>
-    <Task3 a="🤔" b="👌" c="😒"/>
-  </div>
-}
+//   )
+// }
 
 export default App;
