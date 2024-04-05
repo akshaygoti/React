@@ -16,7 +16,7 @@ function Hooks () {
   }
 
   return (
-    <div className="App space-x-4 content-center text-center font-semibold flex flex-row min-h-screen justify-center items-center bg-fuchsia-500">
+    <div className="space-x-4 content-center text-center font-semibold flex flex-row min-h-screen justify-center items-center bg-fuchsia-500">
  
       {/* <div className='text-slate-50 text-2xl'>
          { <p >{count}</p> }
